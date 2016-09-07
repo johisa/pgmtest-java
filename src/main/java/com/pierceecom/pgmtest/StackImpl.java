@@ -83,10 +83,12 @@ public class StackImpl<T> implements Stack<T> {
     }
 
     /**
-     * Returns an iterator to this stack that iterates through the items in LIFO
-     * order.
+     * LIFO ordered Iterator.
      *
-     * @return an iterator to this stack that iterates through the items in LIFO
+     * Note that remove() is not supported. Please use pop() to
+     * remove items.
+     *
+     * @return an iterator that iterates through the items in LIFO
      * order
      */
     @Override
